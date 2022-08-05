@@ -1,7 +1,6 @@
 # Project files and folders
 settings.py
-pdfs/*
-merged/*
+*.pdf
 
 # Virtual environment folders
 venv
