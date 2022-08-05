@@ -14,7 +14,8 @@ def merge():
     for file in os.listdir(pdfs_folder):
         if file.endswith(".pdf"):
             merger.append(pdfs_folder + file)
-        merger.write(merged_folder + "combinedPDFs.pdf")
+    
+    merger.write(merged_folder + "combinedPDFs.pdf")
     merger.close()
 
 
