@@ -1,5 +1,4 @@
 from PyPDF2 import PdfMerger
-import sys
 import os
 
 # PDF folder
